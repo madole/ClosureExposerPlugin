@@ -1,19 +1,29 @@
 {
-	"name": "i18n-webpack-plugin",
-	"version": "0.2.7",
-	"author": "Tobias Koppers @sokra",
-	"description": "Embed localization into your bundle",
-	"peerDependencies": {
-		"webpack": ">=0.10 <2"
-	},
-	"licenses": [
-		{
-			"type": "MIT",
-			"url": "http://www.opensource.org/licenses/mit-license.php"
-		}
-	],
-	"repository": { 
-		"type": "git",
-		"url" : "https://github.com/webpack/i18n-webpack-plugin.git"
-	}
+  "name": "ClosureExposerPlugin",
+  "version": "1.0.0",
+  "description": "A Webpack Plugin to expose private functions within a closure for testing purposes",
+  "main": "index.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/madole/ClosureExposerPlugin"
+  },
+  "keywords": [
+    "Webpack",
+    "Plugin",
+    "Test",
+    "Tests",
+    "Testing"
+  ],
+  "author": "Andrew McDowell (Madole)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/madole/ClosureExposerPlugin/issues"
+  },
+  "homepage": "https://github.com/madole/ClosureExposerPlugin"
 }
