@@ -11,3 +11,5 @@ bathwater(x);
 function tapWater() {
     console.log('im a tapwater');
 }
+
+module.exports = tapWater;

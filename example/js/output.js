@@ -45,22 +45,20 @@
 /***/ function(module, exports, __webpack_require__) {
 
 	
-	exports.bathwater = function bathwater(stuff) {
+	function bathwater(stuff) {
 	    console.log('im in bathwater');
-	    function stuff(stuff) {
-	        console.log(stuff);
-	    }
+	    function stuff(stuff) {console.log(stuff);}
 	}
 
 	var x = 'stuff';
 
 	bathwater(x);
 
-	exports.tapWater = function tapWater() {
+	function tapWater() {
 	    console.log('im a tapwater');
 	}
 
-	module.exports = tapWater;
+	module.exports = {bathwater: bathwater, stuff: stuff, tapWater: tapWater};
 
 /***/ }
 /******/ ]);
