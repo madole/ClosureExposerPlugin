@@ -25,5 +25,9 @@
   "bugs": {
     "url": "https://github.com/madole/ClosureExposerPlugin/issues"
   },
-  "homepage": "https://github.com/madole/ClosureExposerPlugin"
+  "homepage": "https://github.com/madole/ClosureExposerPlugin",
+  "dependencies": {
+    "escodegen": "^1.6.1",
+    "webpack": "^1.11.0"
+  }
 }
